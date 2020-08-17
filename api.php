@@ -10,7 +10,7 @@
         }
         //echo $ids,$zkzs,$names,$xbx,$byxxs;
         //1.连接数据库
-        $link=mysql_connect("localhost","md","6CDznpjJ8i7bzd76");
+        $link=mysql_connect("localhost","md","password");
             if(!$link){
                 echo "数据库连接失败！".mysql_error()."<br>";
             }
